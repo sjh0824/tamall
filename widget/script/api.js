@@ -482,6 +482,7 @@
             console.warn('$api.fixIos7Bar Function need el param, el param must be DOM Element');
             return;
         }
+     
         var strDM = api.systemType;
         if (strDM == 'ios') {
             var strSV = api.systemVersion;
